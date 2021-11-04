@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en=IE">
+<head>
+	<link rel="stylesheet" href="charitystylesheet.css">
+	<title>Donate - Panda Relief</title>
+	<meta charset="utf-8">
+	<header>
+			<div>
+				<h1 id = "name">Panda Relief Ireland</h1>
+			</div>
+			<div id="menu-outer">
+				<div class="table">
+					<div id = "menu">
+					<ul>
+						<li><a href="home.html">Home Page</a></li>
+						<li><a href="aboutus.html">About Us</a></li>
+						<li><a href="donate.html">Donate</a></li>
+						<li><a href="contactus.html">Contact Us</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li><a href="wherewework.html">Where We Are</a></li>
+					</ul>
+			</div></div></div>
+	</header>
+	<br><br>
+	<style>
+		#menu li {
+		display: inline-block;
+		text-align: center;
+		margin: 10px;
+		width: 140px;
+		height: inherit;
+		padding-bottom: 5px;
+		padding-left: 5px;
+		padding-right: 5px;
+		border: 2px solid #a5d8f5;
+		background-color: midnightblue;
+		border-radius: 20px;
+		}
+		a {
+			color: lightblue;
+			font-family: copperplate;
+		}
+		h4 {
+			vertical-align: text-top;
+			text-align: left;
+			font-size: 30px;
+			color: orange;
+		}
+		body {
+			background-image: url('https://wallpaperaccess.com/full/230649.jpg');
+			background-size: cover;
+			background-attachment: fixed;			
+		}
+		.leftContainer {
+    		width:600px;
+    		font-size:30px;
+    		color:black;
+    		text-align: center;
+    		font-family: copperplate;
+    		float: left;
+    		padding-left: 100px;
+    		padding-top: 25px;
+    	}
+    	.rightContainer {
+    		width:600px;
+    		height:600px;
+    		font-size:25px;
+    		color: white;
+    		text-align: center;
+    		font-family: copperplate;
+    		float: right;
+    		padding-left: 100px;
+    		font-weight: bold;
+    		padding-right: 40px;
+    	}
+        .button {
+			color: white;
+			padding: 16px 32px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			transition-duration: 0.4s;
+			cursor: pointer;
+		    background-color: white; 
+		    color: black; 
+		    border: 2px solid orange;
+		    border-radius: 25px;
+		    transition: all 0.5s;
+		}
+        .button:hover {
+        	  background-color: orange;
+  		      color: white;
+        }
+        .button:focus {
+        	background-color: orange;
+        	color: white;
+        }
+        .button2 {
+			display: inline-block;
+			border-radius: 4px;
+		    background-color: orange;
+			border: none;
+			color: #FFFFFF;
+			text-align: center;
+			font-size: 28px;
+			padding: 20px;
+			width: 200px;
+			transition: all 0.5s;
+			cursor: pointer;
+			margin: 5px;
+	    }
+
+        .button2 span {
+ 		    cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button2 span:after {
+			content: '\00bb';
+			position: absolute;
+			opacity: 0;
+			top: 0;
+			right: -20px;
+			transition: 0.5s;
+		}
+
+		.button2:hover span {
+ 			padding-right: 25px;
+		}
+
+		.button2:hover span:after {
+  			opacity: 1;
+  			right: 0;
+		}
+
+        .divider{
+		    width:150px;
+		    height:auto;
+		    display:inline-block;
+		}
+		h3 {
+			color: orange;
+		}
+
+		* {
+ 			box-sizing: border-box;
+		}
+
+		.container {
+		    background-color: #f2f2f2;
+		    padding: 5px 20px 15px 20px;
+		    border: 1px solid lightgrey;
+		    border-radius: 3px;
+		}
+
+		input[type=text] {
+		    width: 100%;
+		    margin-bottom: 20px;
+		    padding: 12px;
+	        border: 1px solid #ccc;
+		    border-radius: 3px;
+		    color: black;
+		}
+
+		label {
+ 		    margin-bottom: 10px;
+ 	        display: block;
+        }
+        .container2 { 
+			padding: 16px 32px;
+			font-size: 16px;
+			margin: 4px 2px;
+			transition-duration: 0.4s;
+			cursor: pointer;
+		    background-color: white; 
+		    color: black; 
+		    border: 2px solid orange;
+		    border-radius: 25px;
+		}
+		.link a{
+			text-decoration: none;
+			color: white;
+		}
+
+</style>
+	<body class="page-template page-template-page-donate page-template-page-donate-php page page-id-2665 ">
+
+	<div class="leftContainer">
+		<p>PandaRelief.org is a completely non profit organisation. We rely on donations from generous people like you to power our critical research, and campaigns, and above all, to save the pandas.</p>
+		<p>Contributing to this nonprofit is one of the best ways you can bring awareness to the lives of these pandas that are being endangered by ruthless corporations destroying their natural habitats, and trophy hunters murdering them for their fur.</p>
+		<p><em>Please use our secure online form to donate via credit card.</em></p>
+
+		<br></br><br></br><br></br><br></br><br></br><br></br>
+
+		<img src="https://cms.qz.com/wp-content/uploads/2017/10/panda.jpg?quality=75&strip=all&w=1200&h=900&crop=1" alt="Panda" width="400" height="300">
+	</div>
+
+	<div class="rightContainer">
+		<form action="/action_page.php">
+		<label for="fname"><i class="fa fa-user"></i> Full Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="John Doe">
+		<label for="email"><i class="fa fa-envelope"></i> Email</label>
+        <input type="text" id="email" name="email" placeholder="john@example.com">
+		<label for="Phone">Phone number:</label>
+		<input type="text" id="Phone" name="Phone" placeholder="086-123-1234">
+		<br><br>
+
+		<select class="button">
+		<option name="" selected="selected">Select currency</option>
+		<option value="USD">United States Dollars</option>
+		<option value="EUR">Euro</option>
+		<option value="GBP">United Kingdom Pounds</option>
+		<option value="DZD">Algeria Dinars</option>
+		<option value="ARP">Argentina Pesos</option>
+		<option value="AUD">Australia Dollars</option>
+		<option value="ATS">Austria Schillings</option>
+		<option value="BSD">Bahamas Dollars</option>
+		<option value="BBD">Barbados Dollars</option>
+		<option value="BEF">Belgium Francs</option>
+		<option value="BMD">Bermuda Dollars</option>
+		<option value="BRR">Brazil Real</option>
+		<option value="BGL">Bulgaria Lev</option>
+		<option value="CAD">Canada Dollars</option>
+		<option value="CLP">Chile Pesos</option>
+		<option value="CNY">China Yuan Renmimbi</option>
+		<option value="CYP">Cyprus Pounds</option>
+		<option value="CSK">Czech Republic Koruna</option>
+		<option value="DKK">Denmark Kroner</option>
+		<option value="NLG">Dutch Guilders</option>
+		<option value="XCD">Eastern Caribbean Dollars</option>
+		<option value="EGP">Egypt Pounds</option>
+		<option value="FJD">Fiji Dollars</option>
+		<option value="FIM">Finland Markka</option>
+		<option value="FRF">France Francs</option>
+		<option value="DEM">Germany Deutsche Marks</option>
+		<option value="XAU">Gold Ounces</option>
+		<option value="GRD">Greece Drachmas</option>
+		<option value="HKD">Hong Kong Dollars</option>
+		<option value="HUF">Hungary Forint</option>
+		<option value="ISK">Iceland Krona</option>
+		<option value="INR">India Rupees</option>
+		<option value="IDR">Indonesia Rupiah</option>
+		<option value="IEP">Ireland Punt</option>
+		<option value="ILS">Israel New Shekels</option>
+		<option value="ITL">Italy Lira</option>
+		<option value="JMD">Jamaica Dollars</option>
+		<option value="JPY">Japan Yen</option>
+		<option value="JOD">Jordan Dinar</option>
+		<option value="KRW">Korea (South) Won</option>
+		<option value="LBP">Lebanon Pounds</option>
+		<option value="LUF">Luxembourg Francs</option>
+		<option value="MYR">Malaysia Ringgit</option>
+		<option value="MXP">Mexico Pesos</option>
+		<option value="NLG">Netherlands Guilders</option>
+		<option value="NZD">New Zealand Dollars</option>
+		<option value="NOK">Norway Kroner</option>
+		<option value="PKR">Pakistan Rupees</option>
+		<option value="XPD">Palladium Ounces</option>
+		<option value="PHP">Philippines Pesos</option>
+		<option value="XPT">Platinum Ounces</option>
+		<option value="PLZ">Poland Zloty</option>
+		<option value="PTE">Portugal Escudo</option>
+		<option value="ROL">Romania Leu</option>
+		<option value="RUR">Russia Rubles</option>
+		<option value="SAR">Saudi Arabia Riyal</option>
+		<option value="XAG">Silver Ounces</option>
+		<option value="SGD">Singapore Dollars</option>
+		<option value="SKK">Slovakia Koruna</option>
+		<option value="ZAR">South Africa Rand</option>
+		<option value="KRW">South Korea Won</option>
+		<option value="ESP">Spain Pesetas</option>
+		<option value="XDR">Special Drawing Right (IMF)</option>
+		<option value="SDD">Sudan Dinar</option>
+		<option value="SEK">Sweden Krona</option>
+		<option value="CHF">Switzerland Francs</option>
+		<option value="TWD">Taiwan Dollars</option>
+		<option value="THB">Thailand Baht</option>
+		<option value="TTD">Trinidad and Tobago Dollars</option>
+		<option value="TRL">Turkey Lira</option>
+		<option value="VEB">Venezuela Bolivar</option>
+		<option value="ZMK">Zambia Kwacha</option>
+
+	</select><br></br>
+	<select class="button">
+		<option name="" selected="selected">Select project/target</option>
+		<option type="text" name="project">Liziba Village</option>
+		<option type="text" name="project">Dujiangyan Panda Base</option>
+		<option type="text" name="project">Chengdu Giant Panda Breeding Centre</option>
+		<option type="text" name="project">Central Park Fundraiser</option>
+		<option type="text" name="project">Charity Day of Giving</option>
+		<option type="text" name="project">Protection for Pandas Project</option>
+		<option type="text" name="project">National Wild Panda Repopulation Commission</option>
+	</select>
+
+    <h3>Payment</h3>
+    <label class="container2">€5
+    	<input type="radio" checked="checked" name="radio">
+    	<span class="checkmark"></span>
+    </label>
+     <label class="container2">€15
+    	<input type="radio" checked="checked" name="radio">
+    	<span class="checkmark"></span>
+    </label>
+     <label class="container2">€25
+    	<input type="radio" checked="checked" name="radio">
+    	<span class="checkmark"></span>
+    </label>
+     <label class="container2">€50
+    	<input type="radio" checked="checked" name="radio">
+    	<span class="checkmark"></span>
+    </label>
+
+    <br></br>
+	<label>Other Amount:</label>
+	<input type="text" id="Amount" name="Amount" placeholder="€">
+	<br><br>
+
+    <label for="cname">Name on Card</label>
+    <input type="text" id="cname" name="cardname" placeholder="John Doe">
+    <label for="ccnum">Credit card number</label>
+    <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+    <label for="expmonth">Expiry Month</label>
+    <input type="text" id="expmonth" name="expmonth" placeholder="September">
+    <label for="expyear">Expiry Year</label>
+    <input type="text" id="expyear" name="expyear" placeholder="2023">
+	<label for="cvv">CVV</label>
+	<input type="text" id="cvv" name="cvv" placeholder="xxx">
+
+	<label>
+    <input type="checkbox" checked="unchecked" name="sameadr"> I've read the  <a href="T&C.txt" target="_blank">terms and condition</a></input>
+    </label>
+
+    <div class="link">
+    <button class="button2" ><span><a href="donationSuccessful.html" target="_blank">Donate</a></span></button><br></br>
+	</div>
+</div>
+</form>
+</body>
+</head>
+</html>

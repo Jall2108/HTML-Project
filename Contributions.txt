@@ -1,0 +1,14 @@
+Rainers Tilitis 	20239129	aboutus.html: 0%	contactus.html: 0%	donate.html: 95%	donationSuccessful.html: 0%		events.html: 0%		home.html: 0%		projects.html: 60%	wherewework.html: 60%		total: 19%
+Jack O Callaghan 	20258968	aboutus.html: 70%	contactus.html: 0%	donate.html: 0%		donationSuccessful.html: 0%		events.html: 90%	home.html: 0%		projects.html: 10%	wherewework.html: 10%		total: 19%
+Adrian-Gabriel Draghici 20235801	aboutus.html: 0%	contactus.html: 65%	donate.html: 0%		donationSuccessful.html: 0%		events.html: 0%		home.html: 0%		projects.html: 0%	wherewework.html: 0%		total: 19%
+Scott Murphy		20250479	aboutus.html: 0%	contactus.html: 0%	donate.html: 0%		donationSuccessful.html: 0%		events.html: 0%		home.html: 0%		projects.html: 0%	wherewework.html: 0%		total: 19%
+Cian Perill 		20278667	aboutus.html: 30%	contactus.html: 35%	donate.html: 5%		donationSuccessful.html: 100% 		events.html: 10%	home.html: 100%		projects.html: 30%	wherewework.html: 30%		total: 24%
+
+aboutus - Jack/Cian		70/30
+contactus - Gabi/Cian		65/35
+donate - Scott/Cian		95/5
+donationSuccessful - Cian	100
+events - Jack/Cian		90/10
+home - Cian			100
+projects - Rainers/Cian/Jack	60/30/10
+wherewework - Rainers/Cian/Jack	60/30/10
